@@ -45,7 +45,7 @@ class ScreenHome extends StatelessWidget {
                     builder: (ctx1) {
                       return AlertDialog(
                         title: const Text('Confirmation'),
-                        content: const Text('Do you want to logout'),
+                        content: const Text('Do you want to logout now'),
                         actions: [
                           TextButton(
                             onPressed: () {
